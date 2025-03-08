@@ -1,0 +1,47 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: $background-color;
+  color: $main-text;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+
+
+  @media screen and (max-width: 1200px) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+}
+
+.btn {
+  font-size: 1.25em !important;
+  background-color: $accent-color;
+  border: 0;
+  border-radius: 6px;
+  font-weight: 800;
+  padding: 0.8em 0.9em;
+  font-family: 'Open Sans', serif;
+  width: 100%;
+    color: #fff;
+    margin: 0;
+    margin-top: 20px;
+    cursor: pointer;
+
+    i {
+      margin: 0;
+      padding-right: 15px;
+    }
+
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  &:hover {
+    background-color: #10a0d5;
+    transition: 0.2s all;
+  }
+}
