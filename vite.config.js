@@ -3,7 +3,7 @@ import { defineConfig } from "vite";
 /**
  * Path to exercise folder
  */
-const exercisePath = "05_Dzien_3/04_Flexbox/01_Verti";
+const exercisePath = "Coderslab/Verti-fully-responsive";
 
 /**
  * Don't change those lines below
