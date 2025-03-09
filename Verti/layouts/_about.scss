@@ -1,0 +1,124 @@
+.about {
+  box-sizing: border-box;
+  padding: 80px 0;
+  background-color: #fff;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.05);
+
+  @media screen and (max-width: 1100px) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+
+    @media screen and (max-width: 1100px) {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .side-panel {
+    width: 40%;
+
+    @media screen and (max-width: 1100px) {
+      order: 2;
+      width: 100%;
+    }
+
+    .more-btn {
+      color: #fff;
+      font-size: 21.6px;
+      margin: 0;
+      margin-top: 20px;
+      cursor: pointer;
+      width: 50%;
+
+      i {
+        margin-right: 20px;
+      }
+
+      @media screen and (max-width: 1100px) {
+        width: 100%;
+      }
+    }
+  }
+
+  .gallery {
+    margin-right: 60px;
+
+    @media screen and (max-width: 1100px) {
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 15px;
+  }
+
+  img {
+    border-radius: 6px;
+    width: 100%;
+
+    @media screen and (max-width: 1100px) {
+      width: 100%;
+    }
+  }
+
+  h3 {
+    color: $main-text;
+    font-weight: 800;
+    font-size: 21.6px;
+    margin-bottom: 21.6px;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 60%;
+
+  @media screen and (max-width: 1100px) {
+    order: 1;
+    width: 100%;
+  }
+
+  h4 {
+    font-size: 36px;
+    margin-bottom: 36px;
+    color: $main-text;
+    font-weight: 800;
+  }
+
+  .continue-reading-btn {
+    color: #fff;
+    font-size: 21.6px;
+    margin: 0;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 300px;
+    min-width: fit-content;
+
+    i {
+      margin: 0;
+      padding-right: 15px;
+    }
+
+    @media screen and (max-width: 1100px) {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+  }
+
+  p {
+    color: $light-text;
+    line-height: 2.25em;
+  }
+}

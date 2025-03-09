@@ -1,0 +1,111 @@
+.content {
+  @media screen and (max-width: 1100px) {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 20px;
+  }
+}
+
+.links {
+  display: flex;
+  padding-top: 80px;
+  padding-bottom: 40px;
+
+  h5 {
+    font-size: 1.35em;
+    margin: 0 0 0.2em 0;
+    font-weight: 800;
+    color: $main-text;
+    margin-bottom: 20px;
+  }
+
+  .links-list {
+    a {
+      color: $light-text;
+      font-size: 15px;
+      text-decoration: underline;
+      cursor: pointer;
+      line-height: 40px;
+    }
+    a:hover {
+      text-decoration: none;
+    }
+
+    @media screen and (max-width: 1100px) {
+      li:last-of-type {
+        border-bottom: 1px solid rgba(128, 128, 128, 0.627);
+        padding-bottom: 15px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 1100px) {
+    padding-left: 15px;
+    padding-right: 15px;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 0;
+  }
+}
+.widget-images {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  line-height: 30px;
+
+  a {
+    color: #f3f3f3;
+    font-size: 1.5em;
+    line-height: inherit;
+    background-color: #222222ac;
+    width: 36.6px;
+    height: 36.6px;
+    padding: 3px 8px;
+    border-radius: 5px;
+  }
+}
+.contact-details {
+  line-height: 45px;
+  font-size: 15px;
+  color: $light-text;
+  padding: 7px;
+}
+.credits {
+  display: flex;
+  color: $light-text;
+  gap: 20px;
+  justify-content: center;
+  padding-top: 10px;
+  margin-bottom: 150px;
+
+  li:first-of-type {
+    border-right: 1px solid rgba(128, 128, 128, 0.338);
+    padding-right: 20px;
+
+    @media screen and (max-width: 1100px) {
+      border-top: 1px solid rgba(128, 128, 128, 0.338);
+      padding-top: 20px;
+    }
+  }
+  a {
+    color: $light-text;
+    text-decoration: underline;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+
+  @media screen and (max-width: 1100px) {
+    padding-left: 25px;
+    padding-right: 15px;
+    flex-direction: column;
+  }
+}
+
+.content4 {
+  @media screen and (max-width: 1100px) {
+    order: 4;
+    margin: 15px;
+  }
+}

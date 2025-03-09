@@ -1,0 +1,75 @@
+.banner {
+  background-color: white;
+  border-radius: 6px;
+  box-sizing: border-box;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 200px;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.05);
+
+  h2 {
+    font-size: 3.5em;
+    margin: 0.1em 0 0.35em 0;
+    color: $main-text;
+    font-weight: 800;
+    margin-top: 5px;
+    margin-bottom: 18px;
+  }
+  span {
+    font-size: 40px;
+    color: $light-text;
+
+    
+      @media screen and (max-width: 1100px) {
+        font-size: 2em;
+      }
+    }
+
+  @media screen and (max-width: 1100px) {
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.6em;
+  }
+
+}
+
+.banner-buttons {
+  @media screen and (max-width: 1100px) {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.large-grey {
+    background-color: rgba(0, 0, 0, 0.05);
+    width: 100%;
+   a {
+    color: $main-text;
+    
+   }
+
+   &:hover {
+    background-color: #babdbe65;
+    transition: 0.2s all;
+   }
+}
+
+.fa-arrow-circle-right {
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.fa-question-circle {
+    font-weight: bold;
+    margin-left: 75px;
+}
