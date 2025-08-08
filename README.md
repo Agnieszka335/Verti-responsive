@@ -31,5 +31,4 @@ It is a recreation of a free template, which I decided to reproduce as part of m
 4. Run the development server `npm run dev`
 
 ## Full-page Screenshot
-
 ![Verti](/Verti/assets/verti.jpg)
